@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+    <test name="JIRA API Homework">
+        <classes>
+            <class name="jira.api.homework.UserTest"/>
+            <class name="jira.api.homework.CreateIssueTest"/>
+            <class name="jira.api.homework.AssigneeTest"/>
+            <class name="jira.api.homework.PriorityTest"/>
+            <class name="jira.api.homework.TransitionsTest"/>
+            <class name="jira.api.homework.AttachmentsTest"/>
+            <class name="jira.api.homework.LinkIssuesTest"/>
+        </classes>
+    </test>
+</suite>
